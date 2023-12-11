@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 style="font-size: 40px; color: #ffc93c;">TASK LIST</h2>
+        <div class="css-todo" style="margin-bottom: 10px;">
+            <input type="text" class="js-todo-value css-input" placeholder="Todo Name" onkeyup="myFunction(event)">
+            <input type="date" class="todo-date css-input">
+            <button onclick="addToDo()" class="css-button add-button">Add</button>
+            
+        </div>
+        <div class="display-todo css-todo"></div>
+        <footer>Made by Uzair Bashir</footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
